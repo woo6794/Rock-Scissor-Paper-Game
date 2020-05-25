@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>rock,scissors,paper</title>
+        <link rel="stylesheet" href="src/style/style.css">
+    </head>
+    <body>
+        <div>
+            <div class="computer">
+                <div class="computer-wrap rock-wrap on" data-value="rock">
+                    <img class="icon" src="src/style/image/rock.svg" alt="">
+                </div>
+                <div class="computer-wrap scissor-wrap" data-value="scissor">
+                    <img class="icon" src="src/style/image/scissors.svg" alt="">
+                </div>
+                <div class="computer-wrap paper-wrap" data-value="paper">
+                    <img class="icon" src="src/style/image/paper.svg" alt="">
+                </div>
+            </div>
+            <div class="user">
+                <button class="btn rock"  type="button" data-value="rock" >
+                    <img class="icon" src="src/style/image/rock.svg" alt="">
+                    <!-- <i class="icon icon-rock"></i> -->
+                </button>
+                <button class="btn scissor" type="button" data-value="scissor">
+                    <img class="icon" src="src/style/image/scissors.svg" alt="">
+                    <!-- <i class="icon icon-scissors"></i> -->
+                </button>
+                <button class="btn paper" type="button" data-value="paper">
+                    <img class="icon" src="src/style/image/paper.svg" alt="">
+                    <!-- <i class="icon icon-paper"></i> -->
+                </button>
+            </div>
+            <div class="result">
+                <input type="text" class="result-input" disabled>
+            </div>
+            <div class="start">
+                <button class="btnStart" type="button" data-value="start">start</button>
+            </div>
+        </div>
+        <script src="src/javascript/test.js"></script>
+    </body>
+</html>
