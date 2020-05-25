@@ -44,6 +44,7 @@ var toggleOn = function () {
     _index++;
   }
   stoped = nextEl.getAttribute("data-value");
+  
 };
 
 var select = function () {
